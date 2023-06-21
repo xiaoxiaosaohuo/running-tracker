@@ -1,5 +1,5 @@
 {
-  "name": "running_page_copy",
+  "name": "running_trakcer",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,6 +10,31 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.6.4"
+    "@mapbox/mapbox-gl-language": "^1.0.1",
+    "@mapbox/polyline": "^1.2.0",
+    "@math.gl/web-mercator": "^3.6.3",
+    "@types/react-dom": "^18.0.6",
+    "@vercel/analytics": "^1.0.1",
+    "astro": "^2.6.4",
+    "astrojs-service-worker": "^1.0.0",
+    "date-fns": "^2.30.0",
+    "date-fns-tz": "^2.0.0",
+    "gcoord": "^1.0.5",
+    "mapbox-gl": "^2.15.0",
+    "react-helmet": "^6.1.0",
+    "react-map-gl": "^7.0.25"
+  },
+  "devDependencies": {
+    "@astrojs/react": "^2.2.1",
+    "@astrojs/tailwind": "^4.0.0",
+    "@types/react": "^18.2.13",
+    "postcss": "^8.4.24",
+    "prettier": "^2.8.8",
+    "prettier-plugin-astro": "^0.10.0",
+    "prettier-plugin-tailwindcss": "^0.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.2",
+    "tailwindcss-animate": "^1.0.6"
   }
 }
